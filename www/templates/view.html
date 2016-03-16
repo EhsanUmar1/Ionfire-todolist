@@ -1,0 +1,22 @@
+<ion-header-bar class="bar-energized">
+
+  <i class="icon ion-android-arrow-back icon-assertive " style="margin-left:20px; margin-top:5px " ng-click="back('main')">Back</i>
+<h1 class="title">View Items</h1>
+
+</ion-header-bar>
+<ion-content>
+  <div class="list">
+
+
+
+    <a class="item" href="#" ng-repeat="sItems in selectedItems">
+      {{sItems.$value}}
+    </a>
+
+
+
+  </div>
+
+
+</ion-content>
+
